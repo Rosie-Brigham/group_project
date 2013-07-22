@@ -2,3 +2,4 @@ h1 {font-family: courier; font-size: 70px; color: white;}
 body {color: darkgrey; background-image:url('Untitled.jpg');backstretch("/binding_dark.png") repeat 0 0;}
 .container {('Untitled.jpg')}
 
+li {font-weight: bold;}
