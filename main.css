@@ -3,3 +3,7 @@ body {color: darkgrey; background-image:url('Untitled.jpg');backstretch("/bindin
 .container {('Untitled.jpg')}
 
 li {font-weight: bold;}
+
+p {font-weight: bold;
+    font-size: 14px;
+    color: white;}
