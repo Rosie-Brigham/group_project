@@ -865,7 +865,8 @@ ol ul {
 li {
   font-family: 'Special Elite', cursive;
   line-height: 20px;
-  color: #000000;
+  color: #FFFFFF;
+  font-weight: strong;
 }
 
 ul.unstyled,
