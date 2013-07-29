@@ -645,7 +645,7 @@ a:focus {
   background-color: #F0FFFF;
   position:absolute;
   top:50;left:50;
-  height:200;
+  height:1000;
   width:400;
   z-index:10;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -803,17 +803,20 @@ h1 {
 
 h2 {
   font-family: 'Special Elite', cursive;
-  font-size: 31.5px;
+  font-size: 40px;
 }
 
 h3 {
   font-family: 'Special Elite', cursive;
-  font-size: 31.5px;
+  font-size: 40px;
   color: #000000;
 }
 
 h4 {
-  font-size: 17.5px;
+  font-family: 'Special Elite', cursive;
+  font-size: 26px;
+  font-weight: strong;
+  color: #778899;
 }
 
 h5 {
@@ -860,7 +863,9 @@ ol ul {
 }
 
 li {
+  font-family: 'Special Elite', cursive;
   line-height: 20px;
+  color: #000000;
 }
 
 ul.unstyled,
