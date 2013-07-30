@@ -1,10 +1,15 @@
-h1 {font-family: courier; font-size: 70px; color: white;}
+
 body {color: darkgrey; background-image:url('images/zombiesapproaching.jpeg');backstretch("/binding_dark.png") repeat 0 0;}
 .container {('Untitled.jpg')}
 .CENTER {text-align: center; }
+
 
 li {font-weight: bold;}
 
 p {font-weight: bold;
     font-size: 14px;
     color: maroon;}
+
+span {
+    color: #778899;
+}

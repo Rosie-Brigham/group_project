@@ -12,6 +12,10 @@
   *zoom: 1;
 }
 
+.classified {
+  color: #FF0000;
+}
+
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -637,6 +641,33 @@ a:focus {
   *zoom: 1;
 }
 
+.container1 {
+  background-color: #F0FFFF;
+  position:absolute;
+  top:50;left:50;
+  height:1000;
+  width:400;
+  z-index:10;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity:.5
+}
+
+.container2 {
+  background-color: #F0FFFF;
+  position:fixed;
+  top:50%;
+  left:50%;
+  height:600px;
+  width:600px;
+    margin-top: -300px; /*set to a negative number 1/2 of your height*/
+    margin-left: -300px; 
+  z-index:10;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity:.5
+}
+
 .container-fluid:before,
 .container-fluid:after {
   display: table;
@@ -649,6 +680,8 @@ a:focus {
 }
 
 p {
+  font-family: 'Special Elite', cursive;
+  font-weight: strong;
   margin: 0 0 10px;
 }
 
@@ -764,19 +797,26 @@ h3 {
 }
 
 h1 {
-  font-size: 38.5px;
+  font-family: 'Special Elite', cursive;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 31.5px;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 24.5px;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  color: #000000;
 }
 
 h4 {
-  font-size: 17.5px;
+  font-family: 'Special Elite', cursive;
+  font-size: 26px;
+  font-weight: strong;
+  color: #778899;
 }
 
 h5 {
@@ -823,7 +863,10 @@ ol ul {
 }
 
 li {
+  font-family: 'Special Elite', cursive;
   line-height: 20px;
+  color: #FFFFFF;
+  font-weight: strong;
 }
 
 ul.unstyled,
@@ -6132,7 +6175,7 @@ a.badge:focus {
 
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 100px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
